@@ -198,9 +198,7 @@
       scope: {
         icon: '@',
         label: '@',
-        classes: '@',
-        href: '@',
-        'ui-sref': '@'
+        classes: '@'
       },
       templateUrl: function(elem, attrs) {
         return attrs.templateUrl || 'ng-mfb-button-default.tpl.html';
