@@ -197,7 +197,8 @@
       replace: true,
       scope: {
         icon: '@',
-        label: '@'
+        label: '@',
+        classes: '@'
       },
       templateUrl: function(elem, attrs) {
         return attrs.templateUrl || 'ng-mfb-button-default.tpl.html';
